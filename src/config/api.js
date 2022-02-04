@@ -2,8 +2,12 @@ import axios from 'axios'
 
 // Create base URL API
 export const API = axios.create({
-    baseURL: 'http://localhost:5001/api/v1/'
+    baseURL:  process.env.SERVER_URL ||  "https://backenddumbsound.herokuapp.com/api/v1/" || 'http://localhost:5001/api/v1/'
+
 })
+
+
+
 
 // Set Authorization Token Header
 export const setAuthToken = (token) => {
