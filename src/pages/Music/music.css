@@ -1,0 +1,37 @@
+.addArtis, .addMusic{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.addArtis .title, .addMusic .title {
+    font-size: 29px;
+    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.addArtis .button, .addMusic .button {
+    width: 35%;
+    border-radius: 5px;
+    border: none;
+    background-color: #F58033;
+    color: white;
+}
+
+.addArtis .button:hover, .addMusic .button:hover {
+    background-color: #f19355;
+}
+
+.addMusic .form-file {
+    width: 10%;
+}
+
+input .musicUpload {
+    width: 20%;
+}
+
+.addMusic #img input .inputFile {
+    background-color: black !important;
+}
+/* .addMusic input#img{
+    background-image: url("Client/src/public/icons/atthace.png");
+} */
+

@@ -1,0 +1,71 @@
+.login, .register {
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    border: none;
+    border-radius: 10px;
+}
+
+.modal-content {
+    border: none;
+    width: 70%;
+    border-radius: 40px !important;
+    margin: auto auto;
+}
+
+.title{
+    font-weight: 800;
+}
+
+.login .card, .register .card {
+    width: 25%;
+    background-color: #1F1F1F;
+    color: white;
+}
+.login .card {
+    margin-top: 100px !important;
+}
+
+.register .card {
+    margin-top: 30px;
+}
+
+.formInput, .formSelect {
+    background-color: #D2D2D240;
+    color: #d3d3d3;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 100%;
+
+}
+
+.formSelect {
+    padding: 8px 0;
+
+}
+
+.buttonSubmit {
+    background-color: #EE4622;
+    color: white;
+    Width: 100%;
+    border-radius: 5px;
+    border: none;
+}
+
+.buttonSubmit:hover{
+    background-color: #f15532;
+    color: white;
+}
+
+.buttonSubmit:active{
+    background-color: #f15532;
+    color: white;
+}
+
+.buttonSubmit{
+    background-color: #f15532;
+    color: white;
+}
+
+.linkTo {
+    color: #B1B1B1;
+}

@@ -1,0 +1,20 @@
+.rc-slider {
+    border: none !important;
+}
+
+.progress-load-bar {
+    background-color: rgba(0, 242, 255, 0) !important;
+}
+
+.progress-bar {
+    background-color: rgba(0, 0, 255, 0);
+}
+
+.react-jinke-music-player-main .music-player-panel .panel-content .rc-slider-track {
+    background-color: #F58033;
+}
+
+.react-jinke-music-player-main .music-player-panel .panel-content .rc-slider-handle, .react-jinke-music-player-main .music-player-panel .panel-content .rc-slider-track {
+    background-color: #e76005;
+
+}

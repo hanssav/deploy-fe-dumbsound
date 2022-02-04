@@ -1,0 +1,29 @@
+.btn-primary {
+    color: blue;
+}
+
+.btn-primary:hover{
+    color: rgb(55, 55, 253);
+}
+
+.btn-primary:active{
+    color: blue;
+}
+
+.btn-primary:focus{
+    color: blue;
+}
+
+.btn-primary.dropdown-toggle:focus {
+    box-shadow: none;
+}
+
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+
+  border-top: 20px solid #f00;
+
+}
